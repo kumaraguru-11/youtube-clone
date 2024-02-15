@@ -6,7 +6,7 @@ import ChannelDetail from "./components/ChannelDetail";
 import SearchFeed from "./components/SearchFeed";
 
 const App = () => (
-  <BrowserRouter basename="/cryptoverse-project">
+  <BrowserRouter basename="/youtube-clone">
     <div className="bg-dark text-light">
       <Navbar />
       <Routes>
