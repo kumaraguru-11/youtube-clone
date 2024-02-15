@@ -6,7 +6,7 @@ import SearchBar from "./SearchBar";
 const Navbar = () => {
   return (
     <Stack className="bg-dark sticky-top p-2 px-5 d-flex flex-row justify-content-between align-items-center">
-      <Link to="/" className="d-flex align-items-center">
+      <Link to="/youtube-clone/" className="d-flex align-items-center">
         <svg
           viewBox="5.24 13.434 54.049 37.945"
           width="60"
