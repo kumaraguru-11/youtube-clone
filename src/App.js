@@ -10,7 +10,7 @@ const App = () => (
     <div className="bg-dark text-light">
       <Navbar />
       <Routes>
-        <Route path="/" exact element={<Feed />} />
+        <Route path="/" element={<Feed />} />
         <Route path="/video/:id" element={<VideoDetail />} />
         <Route path="/channel/:id" element={<ChannelDetail />} />
         <Route path="/search/:searchTerm" element={<SearchFeed />} />
