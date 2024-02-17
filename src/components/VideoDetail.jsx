@@ -16,7 +16,7 @@ const VideoDetail = () => {
       setVideoDetail(data);
     });
   }, [fetchurl]);
-  console.log(videoDetail);
+  
   return (
     <div style={{ minHeight: "95vh" }}>
       <div style={{ position: "sticky", top: "60px", width: "100%" }}>
