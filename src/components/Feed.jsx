@@ -20,7 +20,6 @@ const Feed = () => {
       .catch((error) => console.log(error));
   }, [fetchurl, selectedCategory]);
 
-  console.log(videos)
 
   return (
     <Container fluid className="d-flex flex-md-row flex-column">
